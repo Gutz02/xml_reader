@@ -1,0 +1,125 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.4">
+  <diagram name="Page-1" id="r-RjDRBWF5K6BoYOtSTj">
+    <mxGraphModel dx="941" dy="291" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="q1A8sRkzl6o8opZjTQGx-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="q1A8sRkzl6o8opZjTQGx-1" target="q1A8sRkzl6o8opZjTQGx-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q1A8sRkzl6o8opZjTQGx-1" value="Start" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="349" y="139" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q1A8sRkzl6o8opZjTQGx-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="q1A8sRkzl6o8opZjTQGx-3" target="q1A8sRkzl6o8opZjTQGx-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q1A8sRkzl6o8opZjTQGx-3" value="Ignore prolog and comments&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="363" y="196" width="92" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="q1A8sRkzl6o8opZjTQGx-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="q1A8sRkzl6o8opZjTQGx-5" target="q1A8sRkzl6o8opZjTQGx-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q1A8sRkzl6o8opZjTQGx-5" value="Detect the indentation count for this line" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="349" y="261" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="q1A8sRkzl6o8opZjTQGx-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="q1A8sRkzl6o8opZjTQGx-7" target="q1A8sRkzl6o8opZjTQGx-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q1A8sRkzl6o8opZjTQGx-7" value="Detect the first tag &amp;lt; &amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="327" width="88" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="q1A8sRkzl6o8opZjTQGx-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="q1A8sRkzl6o8opZjTQGx-34" target="q1A8sRkzl6o8opZjTQGx-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="407" y="553" as="sourcePoint" />
+            <mxPoint x="411.0000000000002" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q1A8sRkzl6o8opZjTQGx-17" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="q1A8sRkzl6o8opZjTQGx-16">
+          <mxGeometry x="0.3718" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q1A8sRkzl6o8opZjTQGx-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q1A8sRkzl6o8opZjTQGx-21" target="q1A8sRkzl6o8opZjTQGx-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-35.6966666666666" y="279" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q1A8sRkzl6o8opZjTQGx-24" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="q1A8sRkzl6o8opZjTQGx-22">
+          <mxGeometry x="-0.2549" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q1A8sRkzl6o8opZjTQGx-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="q1A8sRkzl6o8opZjTQGx-21" target="q1A8sRkzl6o8opZjTQGx-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q1A8sRkzl6o8opZjTQGx-30" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="q1A8sRkzl6o8opZjTQGx-26">
+          <mxGeometry x="0.1462" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q1A8sRkzl6o8opZjTQGx-21" value="Does text&amp;nbsp;&lt;div&gt;contain a tag as well&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-195.02999999999997" y="239" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="q1A8sRkzl6o8opZjTQGx-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q1A8sRkzl6o8opZjTQGx-23" target="q1A8sRkzl6o8opZjTQGx-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="41.97333333333336" y="342.3809523809523" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q1A8sRkzl6o8opZjTQGx-23" value="Follow the text, with the nodes closing tag on a new line&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-18.026666666666642" y="249" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q1A8sRkzl6o8opZjTQGx-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="q1A8sRkzl6o8opZjTQGx-25" target="q1A8sRkzl6o8opZjTQGx-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q1A8sRkzl6o8opZjTQGx-25" value="replace all the text in the location of this inner tag with a key" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-201.02666666666664" y="353" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q1A8sRkzl6o8opZjTQGx-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="q1A8sRkzl6o8opZjTQGx-27" target="q1A8sRkzl6o8opZjTQGx-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-221.02999999999997" y="466" />
+              <mxPoint x="-221.02999999999997" y="279" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q1A8sRkzl6o8opZjTQGx-27" value="Follow a new line on the same indentation level as the text" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-201.02666666666664" y="436" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q1A8sRkzl6o8opZjTQGx-32" value="End" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="0.9700000000000273" y="345" width="82" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="q1A8sRkzl6o8opZjTQGx-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q1A8sRkzl6o8opZjTQGx-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="251.28571428571422" y="427.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q1A8sRkzl6o8opZjTQGx-42" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="q1A8sRkzl6o8opZjTQGx-41">
+          <mxGeometry x="-0.2347" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q1A8sRkzl6o8opZjTQGx-34" value="does the line&amp;nbsp;&lt;div&gt;also include&amp;nbsp;&lt;/div&gt;&lt;div&gt;the closing&amp;nbsp;&lt;/div&gt;&lt;div&gt;tag?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="333.25" y="385" width="151.5" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="q1A8sRkzl6o8opZjTQGx-43" value="Push this tag and move&amp;nbsp;&lt;div&gt;onto the next line&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="162" y="403" width="88" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="q1A8sRkzl6o8opZjTQGx-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="q1A8sRkzl6o8opZjTQGx-46" target="q1A8sRkzl6o8opZjTQGx-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q1A8sRkzl6o8opZjTQGx-46" value="Detect all the tags&lt;br&gt;present in the line" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="349" y="510" width="120" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="q1A8sRkzl6o8opZjTQGx-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="q1A8sRkzl6o8opZjTQGx-47" target="q1A8sRkzl6o8opZjTQGx-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q1A8sRkzl6o8opZjTQGx-47" value="Split the contents of the line based on the tags&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="352" y="575" width="114" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="q1A8sRkzl6o8opZjTQGx-49" value="set the appropriate indentation based on the originals line" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="352" y="646" width="114" height="44" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

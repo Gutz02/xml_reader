@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This is a test XML file with edge cases -->
+<head>
+    <meta charset="UTF-8" />
+    <body>
+        <title lang="en">
+            <p>This is a <bold>Formatted File?</bold></p>
+            <br/>
+            <p>Nested <italic>content</italic> with attributes.</p>
+            <p>
+                <link href="https://example.com" />
+            </p>
+        </title>
+        <footer>
+            Some text content in the footer.
+        </footer>
+    </body>
+</head>

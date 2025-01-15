@@ -1,0 +1,16 @@
+<head>
+    <body>
+        <title lang="en">
+            <p>
+                This is a 
+                <bold>
+                    Formatted File?
+                </bold>
+            </p>
+            <text>
+                Or maybe parsed?
+            </text>
+            <br/>
+        </title>
+    </body>
+</head>
