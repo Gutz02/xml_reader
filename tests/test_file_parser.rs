@@ -32,6 +32,4 @@ fn test_extract_attributes(){
     assert_eq!(attributes1.get("charset").unwrap(), "UTF-8");
     assert_eq!(attributes2.get("charset").unwrap(), "UTF-8");
     assert_eq!(attributes2.get("date").unwrap(), "1-14-2025");
-
-    println!("{:?}",attributes1)
 }
