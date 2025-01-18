@@ -12,7 +12,7 @@ fn test_tree(){
 
     assert_eq!(parse_file.len(), 7);
     assert_eq!(parse_file[3].get_contents().as_ref().unwrap(), "This is a ");
-    assert_eq!(*parse_file[3].get_children()[0].as_ref(), *parse_file[4]);
+    assert_eq!(*parse_file[3].get_children()[1].as_ref(), *parse_file[4]);
     assert_eq!(*parse_file[4].get_parent().as_ref().unwrap(), parse_file[3]);
     assert_eq!(parse_file[4].get_contents().as_ref().unwrap(), "Formatted File?");
     assert_eq!(parse_file[5].get_contents().as_ref().unwrap(), "Or maybe parsed?");

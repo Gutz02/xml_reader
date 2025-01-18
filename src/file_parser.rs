@@ -69,8 +69,11 @@ pub fn parse_contents(contents: &Vec<String>) -> Vec<Rc<Node>> {
                 .iter()
                 .find(|node| node.get_id() == *unclosed_tags.last().unwrap())
                 .unwrap();
-            unclosed_tag.set_content(line);
 
+            let temp_node = Node::new(String::from("content"), HashMap::new(), node_id);
+            unclosed_tag.set_content(line);
+            handle_parent_child(temp_node.clone(), &mut result, &unclosed_tags);
+            node_id += 1;
         } else {
             let node_name = detect_node_name(line);
 
